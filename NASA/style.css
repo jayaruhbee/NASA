@@ -1,0 +1,93 @@
+@font-face {
+    font-family: "Voyager Grotesque"; 
+    src: url("/Users/jessi/Library/Fonts/Voyager Grotesque(regular).ttf");
+}
+
+body {
+    display: block;
+    background-image: radial-gradient(#052336, #032552, #156382);
+}
+
+input {
+    width: 90x;
+    height: 45px;
+    color:#032552;
+    background-color:#9ccddc;
+
+}
+
+button {
+    display: inline-block;
+    line-height: 0px;
+    font-size: 20px;
+    font-family: "Voyager Grotesque", 'Shadows Into Light';
+    padding: 22px 50px;
+    /* font-family: 'Shadows Into Light';
+    color: black;
+    /* background-color: #ced7e0; */
+    background-color: #9ccddc;
+}
+
+
+
+button:hover {
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+button:active {
+    background-color: #054569;
+    transition: 0.2s;
+    color: white;
+    /* color: black; */
+}
+
+.title {
+    text-align: center;
+    color: #5591a9;
+    font-family: "Voyager Grotesque", 'Shadows Into Light';
+        font-weight: bold;
+    font-size: 100px;
+    /* padding: 0px; */
+    line-height: 5px;
+    /* distance between this and subtitle */
+}
+
+.subtitle {
+    text-align: center;
+    color: rgb(105, 34, 26);
+    font-family: "Voyager Grotesque", 'Shadows Into Light';
+    font-weight: bold;
+    font-size: 50px;
+    /* padding: 0px; */
+    line-height: 10px;
+
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    padding: 15px 0;
+    height: 500px;
+}
+
+
+.info  {
+    text-align: center;
+    color: white;
+    font-family: fantasy;
+    font-size: 20px;
+    padding: 10px;
+}
+
+
+/* 
+FAR FAR AWAY
+Faraway planets are great color inspiration too. These monochromatic shades of blue are simple and stunning
+
+HEX CODES:
+#062c43
+#054569
+#5591a9
+#9ccddc
+#ced7e0 */
